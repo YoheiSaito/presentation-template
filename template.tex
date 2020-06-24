@@ -1,0 +1,84 @@
+\documentclass[dvipdfmx, a4p, cjk]{beamer}
+
+% template package
+\usepackage{txfonts}
+\usepackage{hyperref}
+\usepackage{pxjahyper}
+\usepackage{bxdpx-beamer}
+\usepackage{color}
+\usetheme{Madrid}
+\usecolortheme{dolphin}
+
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{} % remove navigation
+% \setbeamertemplate{footline}[page number]
+
+\newcommand{\argmax}{\mathop{\rm arg~max}\limits}
+\newcommand{\argmin}{\mathop{\rm arg~min}\limits}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\green}[1]{\textcolor{green}{#1}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\cyan}[1]{\textcolor{cyan}{#1}}
+\newcommand{\magenta}[1]{\textcolor{magenta}{#1}}
+\newcommand{\yellow}[1]{\textcolor{yellow}{#1}}
+\title{2020年度第1回 \\ 点群進捗報告会}
+\author{齊藤 陽平}
+\institute[田中研究室]{信州大学総合理工学研究科 田中エルナン宮川研究室}
+\date{2020年 6月27日}
+
+\begin{document}
+\frame{\titlepage \thispagestyle{empty}}
+\begin{frame}{あらすじ} \tableofcontents \end{frame}
+\begin{frame}{フレームタイトル}
+内容をここに書く．
+
+\blue{■} \hspace{-9pt} \cyan{■} \hspace{-9pt} \green{■} \hspace{-9pt} \yellow{■} \hspace{-9pt} \red{■} \hspace{-9pt} \magenta{■} \vspace{-6pt}\\
+\blue{■} \hspace{-9pt} \cyan{■} \hspace{-9pt} \green{■} \hspace{-9pt} \yellow{■} \hspace{-9pt} \red{■} \hspace{-9pt} \magenta{■} \vspace{-6pt}\\
+\blue{■} \hspace{-9pt} \cyan{■} \hspace{-9pt} \green{■} \hspace{-9pt} \yellow{■} \hspace{-9pt} \red{■} \hspace{-9pt} \magenta{■} \vspace{-6pt}\\
+\blue{■} \hspace{-9pt} \cyan{■} \hspace{-9pt} \green{■} \hspace{-9pt} \yellow{■} \hspace{-9pt} \red{■} \hspace{-9pt} \magenta{■} \vspace{-6pt}\\
+\blue{■} \hspace{-9pt} \cyan{■} \hspace{-9pt} \green{■} \hspace{-9pt} \yellow{■} \hspace{-9pt} \red{■} \hspace{-9pt} \magenta{■} \vspace{-6pt}\\
+\blue{■} \hspace{-9pt} \cyan{■} \hspace{-9pt} \green{■} \hspace{-9pt} \yellow{■} \hspace{-9pt} \red{■} \hspace{-9pt} \magenta{■} \vspace{-6pt}\\
+\blue{■} \hspace{-9pt} \cyan{■} \hspace{-9pt} \green{■} \hspace{-9pt} \yellow{■} \hspace{-9pt} \red{■} \hspace{-9pt} \magenta{■} \vspace{-6pt}\\
+\blue{■} \hspace{-9pt} \cyan{■} \hspace{-9pt} \green{■} \hspace{-9pt} \yellow{■} \hspace{-9pt} \red{■} \hspace{-9pt} \magenta{■} \vspace{-6pt}\\
+\blue{■} \hspace{-9pt} \cyan{■} \hspace{-9pt} \green{■} \hspace{-9pt} \yellow{■} \hspace{-9pt} \red{■} \hspace{-9pt} \magenta{■} \vspace{-6pt}\\
+\blue{■} \hspace{-9pt} \cyan{■} \hspace{-9pt} \green{■} \hspace{-9pt} \yellow{■} \hspace{-9pt} \red{■} \hspace{-9pt} \magenta{■} \vspace{-6pt}\\
+\blue{■} \hspace{-9pt} \cyan{■} \hspace{-9pt} \green{■} \hspace{-9pt} \yellow{■} \hspace{-9pt} \red{■} \hspace{-9pt} \magenta{■} \vspace{-6pt}\\
+\blue{■} \hspace{-9pt} \cyan{■} \hspace{-9pt} \green{■} \hspace{-9pt} \yellow{■} \hspace{-9pt} \red{■} \hspace{-9pt} \magenta{■} \vspace{-6pt}\\
+\blue{■} \hspace{-9pt} \cyan{■} \hspace{-9pt} \green{■} \hspace{-9pt} \yellow{■} \hspace{-9pt} \red{■} \hspace{-9pt} \magenta{■} \vspace{-6pt}\\
+\blue{■} \hspace{-9pt} \cyan{■} \hspace{-9pt} \green{■} \hspace{-9pt} \yellow{■} \hspace{-9pt} \red{■} \hspace{-9pt} \magenta{■} \vspace{ 0pt}\\
+
+\alert{強調}
+\bf{bold}
+\sl{naname}
+\it{itaric}
+数式：$a=b=c$
+
+\end{frame}
+
+\begin{frame}{はじめてのスライド}
+    \begin{definition}
+    1と自分自身しか約数を持たない数を\alert{素数}という．
+    \end{definition}
+    \begin{example}
+        \begin{itemize}
+        \item 2 は素数．
+        \item 3 も素数．
+        \item 4 は素数ではない．
+        \end{itemize}
+    \end{example}
+\end{frame}
+
+\begin{frame}{block}
+    \begin{block}{This is a block}
+        普通のブロック
+    \end{block}
+    \begin{alertblock}{This is a alert block}
+        アラートブロック
+    \end{alertblock}
+    \begin{exampleblock}{This is a example block}
+        example
+        $r \neq 0$
+        \[ \mathcal{S}' = \{ p \in \mathcal{S} \mid \min_{k_i \in \mathcal{K}} \|p - k_i\| < r_{kpp} \} \]
+    \end{exampleblock}
+\end{frame}
+\end{document}
